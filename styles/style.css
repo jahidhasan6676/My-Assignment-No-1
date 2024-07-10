@@ -14,8 +14,7 @@ body{
 /* universal style end */
 .banner-head-container{
    max-width:100%;
-    height:520px;
-    
+    height:540px;
     background-image: url(../assets/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,6 +47,7 @@ body{
     font-weight: 400;
     line-height: 20px;
     margin-top:10px;
+    
 
 }
 .btn-primary{
@@ -57,3 +57,139 @@ body{
     color:rgb(255, 255, 255);
 }
 /* banner style part end */
+
+/* workplace container style */
+.workplace-container{
+    width:1300px;
+    height:900px;
+    border-radius: 10px;
+    background-color:rgb(255, 250, 250);
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.workplace-title{
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 800;
+    
+
+}
+/* shared */
+.workplace-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    /* opacity:0.07; */
+}
+.workplace-content{
+    text-align:center;
+}
+/* desktop-man */
+.desktop-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+    
+    
+}
+.desktop-description{
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:30px;
+
+}
+.desktop-man{
+    width:100%;
+    height:250px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.desktop-content{
+    width:40%;
+    height:70%;
+    margin-top:60px;
+    margin-left:150px;
+}
+.desktop-man-pic{
+    width:40%;
+    height:70%;
+    text-align:center;
+    margin-top:55px;
+}
+/* btn-shared */
+.btn-more{
+    color: rgb(13, 19, 33);
+    padding:8px 10px 8px 10px;
+    font-weight:600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top:20px;
+}
+.desktop-man-pic img{
+    width:200px;
+    height:180px;
+}
+/* virtual-man-style */
+.virtual-man{
+    width:100%;
+    height:250px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.virtual-man-pic{
+    width:20%;
+    height:70%;
+    margin-top:30px;
+    margin-left:150px;
+}
+.virtual-content{
+    width:40%;
+    height:70%;
+    margin-top:30px;
+    margin-right:180px;
+}
+.virtual-man-pic img{
+    width:200px;
+    height:180px;
+}
+.virtual-content-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+}
+.virtual-content-description{
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:30px;
+}
+/* data entry man style */
+.data-entry-man{
+    width:100%;
+    height:250px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.data-entry-content{
+    width:40%;
+    height:70%;
+    margin-left:150px;
+    margin-top:30px;
+}
+.data-entry-man-pic{
+    width:40%;
+    height:70%;
+    margin-top:30px;
+    text-align:center;
+}
+.data-entry-man-pic img{
+    width:200px;
+    height:180px;
+}
+/* workplace style end */
