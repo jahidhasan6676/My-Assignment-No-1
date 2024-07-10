@@ -19,6 +19,7 @@ body{
     background-image: url(../assets/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    border:1px solid white;
     
 }
 /* banner style part */
@@ -199,9 +200,10 @@ body{
 /* My Inspiration part style */
 .my-inspiration{
     width:1300px;
-    height:550px;
+    height:600px;
     margin:0 auto;
     margin-bottom:100px;
+    
 
 }
 .inspiration-title{
@@ -221,7 +223,91 @@ body{
     text-align:center;
 }
 .iframe{
-    text-align:center;
-    margin-top:50px;
+    /* text-align:center;
+    margin-top:50px; */
+    
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top:54px;
+
+}
+.iframe-video{
+    
+    padding:25px 25px;
+    margin-left:155px;
+    
 }
 /* inspiration part style end */
+
+/* my target part style */
+.my-target{
+    width:1300px;
+    height:400px;
+    margin:0 auto;
+    margin-bottom:100px;
+}
+.my-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+.my-target-content{
+    text-align:center;
+}
+.my-3-target{
+    display:flex;
+    gap:25px;
+    
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-size: 22px;
+    font-weight: 700;
+    margin-top:12px;
+
+}
+.target-description{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top:12px;
+}
+.btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+
+    
+}
+.btn-head{
+    margin-top:25px;
+}
+.target-1{
+    width:420px;
+    height:100%;
+    padding:30px 30px 30px 30px;
+    margin-top:24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+}
+.target-2{
+    width:420px;
+    height:100%;
+    padding:30px 30px 30px 30px;
+    margin-top:24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    
+}
+.target-3{
+    width:420px;
+    height:100%;
+    padding:30px 30px 30px 30px;
+    margin-top:24px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    
+}
+/* my current target style end */
