@@ -195,6 +195,9 @@ body{
     width:200px;
     height:180px;
 }
+
+
+
 /* workplace style end */
 
 /* My Inspiration part style */
@@ -319,7 +322,7 @@ body{
     
     margin:0 auto;
     margin-bottom:60px;
-    background-image: url(../assets/handshake.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),  url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 16px;
